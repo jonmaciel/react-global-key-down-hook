@@ -1,0 +1,42 @@
+{
+  "name": "react-global-key-down-hook",
+  "version": "0.1.0",
+  "description": "React Hook to window keydown",
+  "author": "jonmaciel",
+  "license": "MIT",
+  "repository": "jonmaciel/react-global-key-down-hook",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "latest",
+    "babel-runtime": "latest",
+    "react": "^16.12.0",
+    "rollup": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "typescript": "~3.7.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "npm",
+    "keypress",
+    "hook",
+    "hooks",
+    "global keypress"
+  ]
+}
