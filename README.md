@@ -1,4 +1,4 @@
-# react-global-key-down
+# react-global-key-down-hook
 
 A simple package to bind keys on components.
 
