@@ -1,6 +1,6 @@
 {
   "name": "react-global-key-down-hook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Hook to window keydown",
   "author": "jonmaciel",
   "license": "MIT",

@@ -52,7 +52,7 @@ const App = () => {
 export default App
 ```
 
-### Parâmeters
+### Params
 
 ```javascript
   useGlobalKeyDown(
