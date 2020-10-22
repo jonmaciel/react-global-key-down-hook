@@ -9,7 +9,7 @@ export default (
     if (key instanceof Array) {
       if (!key.includes(pressedKey)) return
     } else {
-      if (key !== pressedKey) return
+      if (key !== '_all' && key !== pressedKey) return
     }
 
     callBack(pressedKey)

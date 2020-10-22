@@ -59,6 +59,12 @@ useGlobalKeyDown(() => setPositionY(positionY + 1), ['ArrowUp', 'w', 'k'])
 useGlobalKeyDown(() => setPositionY(positionY - 1), ['ArrowDown', 's', 'j'])
 ```
 
+It's possible to bind all keys, but it's just recommended to debug:
+
+```javascript
+useGlobalKeyDown((key) => console.log('Pressed key', key), '_all')
+```
+
 ### Params
 
 ```javascript

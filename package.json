@@ -36,6 +36,10 @@
     "keypress",
     "hook",
     "hooks",
-    "global keypress"
+    "global keypress",
+    "keydown",
+    "bind key",
+    "global keydown",
+    "global"
   ]
 }
