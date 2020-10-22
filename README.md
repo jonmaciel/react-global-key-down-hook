@@ -52,6 +52,13 @@ const App = () => {
 export default App
 ```
 
+you also can use it to control movement:
+
+```javascript
+useGlobalKeyDown(() => setPositionY(positionY + 1), ['ArrowUp', 'w', 'k'])
+useGlobalKeyDown(() => setPositionY(positionY - 1), ['ArrowDown', 's', 'j'])
+```
+
 ### Params
 
 ```javascript
