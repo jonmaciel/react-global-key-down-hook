@@ -17,7 +17,7 @@ OR
 ## Example
 
 ```javascript
-import React from 'react'
+import React, { useState } from 'react'
 import useGlobalKeyDown from 'react-global-key-down-hook'
 
 const App = () => {
@@ -36,7 +36,7 @@ export default App
 or just using one key:
 
 ```javascript
-import React from 'react'
+import React, { useState } from 'react'
 import useGlobalKeyDown from 'react-global-key-down-hook'
 
 const App = () => {
@@ -62,7 +62,10 @@ useGlobalKeyDown(() => setPositionY(positionY - 1), ['ArrowDown', 's', 'j'])
 It's possible to bind all keys, but it's just recommended to debug:
 
 ```javascript
-useGlobalKeyDown((key) => console.log('Pressed key', key), '_all')
+useGlobalKeyDown(
+  (pressedKey) => console.log('Pressed key:', `"${pressedKey}"`),
+  '_all'
+)
 ```
 
 ### Params
